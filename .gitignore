@@ -17,6 +17,13 @@
 # Output files from R CMD check
 /*.Rcheck/
 
+# Jupyter files 
+.ipynb_checkpoints
+**/.ipynb_checkpoints
+
+# Files from Zenodo
+data/fibroblast_atlas.rds
+
 # RStudio files
 .Rproj.user/
 
